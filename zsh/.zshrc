@@ -60,6 +60,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  jsontools
   zsh-syntax-highlighting
 )
 
@@ -94,6 +95,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias la="ls -la"
-alias st="git st"
+alias st="git status"
 alias manda="git push"
 alias pega="git pull"
+export PATH="/usr/local/opt/sqlite/bin:/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby:$PATH"
